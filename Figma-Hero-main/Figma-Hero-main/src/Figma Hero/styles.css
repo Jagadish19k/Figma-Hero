@@ -1,0 +1,427 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #FFF8F0;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+    max-width: 1250px;
+    margin: 0 auto 0px auto;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto 35px auto;
+    width: 100%;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+    /* padding: 32px 0px 32px 120px; */
+
+}
+
+#hero-contact {
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 470;
+    line-height: 14px;
+    text-align: left;
+
+}
+
+.hero-greetings {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 50px;
+    color: #55206D;
+}
+
+.hero-role {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 20px;
+    color: #190D37;
+    margin-bottom: 10px;
+}
+
+.and {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 20px;
+    color: #190D37;
+    margin-bottom: 10px;
+}
+
+.hero-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.button-me {
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+    height: 44px;
+    width: 138px;
+    border: none;
+    border-radius: 4px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+#hero-image-wrapper {
+    padding-left: 10px;
+    padding-right: 0%;
+}
+
+#hero-image-width {
+    width: 50%;
+}
+
+#hero-img {
+    width: 100%;
+    float: right;
+    padding-right: 0%;
+}
+
+#i-do {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    margin-top: 5%;
+}
+
+.i-do-what {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+
+    text-align: center;
+}
+
+.i-do-job {
+    color: #190D37;
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.i-do-des {
+    color: #190D37;
+    text-align: center;
+    max-width: 700px;
+    margin: 8px auto 48px auto;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#full-dev {
+    display: flex;
+    max-height: fit-content;
+    max-width: 1250px;
+    margin: 0 auto 0px auto;
+}
+
+.title {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+
+}
+
+.dev {
+    height: 291px;
+    width: 340px;
+    left: 190px;
+    top: 939px;
+    border-radius: 10px;
+    margin: 0 auto 35px auto;
+    margin-left: 0%;
+
+
+}
+
+.desc {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.dev-card {
+    display: grid;
+    background-color: #FFFFFF;
+    text-align: center;
+    left: 190px;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    width: 350px;
+    grid-gap: 20px 50px;
+
+}
+
+.all-projects {
+    width: 80%;
+    text-align: left;
+    margin: 0 auto 0px auto;
+    margin-bottom: 8px;
+}
+
+.project {
+    max-width: 1250px;
+    margin: 0 auto 35px auto;
+    margin-bottom: 8px;
+    margin-top: 5%;
+}
+
+.project-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+
+    text-align: center;
+    margin-top: 1%;
+}
+
+.project-header {
+    color: #190D37;
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.project-description {
+    color: #190D37;
+    text-align: center;
+    max-width: 700px;
+    margin: 8px auto 48px auto;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Project-name {
+    color: #291854;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+}
+
+.project-desc {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #55206D;
+    text-align: left;
+}
+
+.project-link1 {
+    color: #6A87A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.project-link2 {
+    color: #6A87A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.project-link3 {
+    color: #6A87A3;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+
+.all-projects {
+    margin: 0 auto 35px auto;
+    max-width: 1250px;
+}
+
+.projects {
+    max-width: 1250px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    margin-left: 0%;
+    align-items: center;
+}
+
+.boxes div {
+    align-items: left;
+    margin: 10px;
+    justify-content: left;
+}
+
+.box-1 {
+    background-color: #19ACFF;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 160px;
+    color: #FFFFFF;
+}
+
+.box-2 {
+    background-color: #FFE819;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 160px;
+    color: #000000;
+}
+
+.box-3 {
+    background-color: #FF1919;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 160px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.all-projects {
+    margin-left: 0%;
+    margin-right: 0;
+}
+
+.projects {
+    display: flex;
+    
+}
+
+.boxes {
+    width: 20%;
+    
+}
+
+.all-projects-info {
+    padding-left: 20px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    padding-top: 0%;
+    padding-bottom: 5px;
+}
+
+.project1 {
+    text-align: center;
+}
+
+.project2 {
+    text-align: center;    
+}
+
+.project3 {
+    text-align: center;
+}
+
+.i-do-what {
+    padding-bottom: 0px;
+}
+
+.i-do-job {
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.project-header {
+    padding-top: 2px;
+}
+
+.project-desc {
+    width: 122%;
+}
+
+#footer {
+    background-color: #000000;
+    height: 58px;
+    width: 100%;
+    padding-bottom: 0%;
+
+}
+
+.footer-text {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 0px;
+}
+
+body{
+    padding-bottom: 0px;
+}
